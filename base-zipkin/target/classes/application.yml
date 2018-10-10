@@ -6,9 +6,9 @@ spring:
   sleuth:
     enabled: false
   datasource:
-    url: jdbc:mysql://127.0.0.1/test?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+    url: jdbc:mysql://localhost/test?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
     username: root
-    password: yff3445683
+    password: root
     driver-class-name: com.mysql.jdbc.Driver
     type: com.zaxxer.hikari.HikariDataSource
     schema[0]: classpath:/zipkin.sql
@@ -18,7 +18,6 @@ management:
     web:
       server:
         auto-time-requests: false
-#spring cloud (十) Sleuth+ZipKin 实现服务追踪（续）   改造
 zipkin:
   collector:
     rabbitmq:

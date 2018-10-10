@@ -8,6 +8,11 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * 参考:
+ * https://codeload.github.com/hackyoMa/spring-cloud-demo/zip/master
+ * https://www.jianshu.com/p/4b9bf5a311fe
+ */
 @SpringBootApplication
 @EnableEurekaClient
 @EnableFeignClients
