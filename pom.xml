@@ -15,6 +15,14 @@
         <module>base-zipkin</module>
         <module>base-zipkin-one</module>
         <module>base-zipkin-two</module>
+        <module>base-gateway</module>
+        <module>demo-service1</module>
+        <module>demo-service2</module>
+        <module>base-oauth</module>
+        <module>spring-security-sso-auth-server</module>
+        <module>spring-security-demo1</module>
+        <module>oauth-client-demo1</module>
+        <module>oauth-client-ui</module>
     </modules>
     <packaging>pom</packaging>
     <name>base-microservice</name>
@@ -23,14 +31,14 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
-        <spring-boot.version>2.0.5.RELEASE</spring-boot.version>
+        <spring-boot.version>2.0.6.RELEASE</spring-boot.version>
         <spring-cloud.version>Finchley.SR1</spring-cloud.version>
     </properties>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.0.5.RELEASE</version>
+        <version>2.0.6.RELEASE</version>
     </parent>
 
     <dependencyManagement>

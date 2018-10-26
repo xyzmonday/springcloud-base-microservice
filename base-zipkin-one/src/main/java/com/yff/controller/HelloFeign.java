@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
- * @author Mr.zhou
+ * @author monday
  */
 @Component
 @FeignClient(value = "zipkin-client-two")

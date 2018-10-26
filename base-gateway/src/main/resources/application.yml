@@ -1,0 +1,22 @@
+server:
+  port: 10000
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/ #eureka服务注册地址
+spring:
+  application:
+    name: gateway
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'routes'
+zuul:
+  routes:
+    demo-service1:
+      path: /demo/**
+      serviceId: demo-service1
+      #排除某些路由
+  ignored-patterns:
+    - /demo-service1/demo/port

@@ -16,10 +16,10 @@ spring:
           username: xyzmonday
           password: yff3445683
       label: master
-rabbitmq:
-  addresses: amqp://localhost:5672
-  username: guest
-  password: guest
+  rabbitmq:
+    addresses: amqp://localhost:5672
+    username: guest
+    password: guest
 management:
   endpoints:
     web:

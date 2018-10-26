@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class RefreshController {
 
-
     @Value("${server.port}")
     String port;
 

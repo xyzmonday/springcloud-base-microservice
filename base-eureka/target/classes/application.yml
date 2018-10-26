@@ -1,5 +1,6 @@
 server:
   port: 8761  # 当前eureka server 服务的端口号为8080
+#eureka
 eureka:
   instance:
     hostname: localhost # 当前eureka 的hostname 为 localhost

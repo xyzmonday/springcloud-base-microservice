@@ -6,10 +6,10 @@ spring:
         service-id: config-server
       label: master
       profile: dev
-rabbitmq:
-  addresses: amqp://localhost:5672
-  username: guest
-  password: guest
+  rabbitmq:
+    addresses: amqp://localhost:5672
+    username: guest
+    password: guest
 management:
   endpoints:
     web:

@@ -1,0 +1,18 @@
+#配置信息从注册中心的config-server服务里面拉取，config-server服务里面的配置是从git仓库获取的
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: config-server
+      label: master
+      profile: dev
+  rabbitmq:
+    addresses: amqp://localhost:5672
+    username: guest
+    password: guest
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
