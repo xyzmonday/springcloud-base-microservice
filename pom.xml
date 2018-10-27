@@ -18,11 +18,11 @@
         <module>base-gateway</module>
         <module>demo-service1</module>
         <module>demo-service2</module>
-        <module>base-oauth</module>
         <module>spring-security-sso-auth-server</module>
         <module>spring-security-demo1</module>
-        <module>oauth-client-demo1</module>
-        <module>oauth-client-ui</module>
+        <module>base-oauth-server</module>
+        <module>spring-security-sso-ui</module>
+        <module>spring-security-sso-ui2</module>
     </modules>
     <packaging>pom</packaging>
     <name>base-microservice</name>
